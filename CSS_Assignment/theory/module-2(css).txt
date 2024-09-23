@@ -1,0 +1,160 @@
+                                          Module(CSSandCSS3)-2
+
+Q-1: What are the benefits of using CSS?  
+Ans:1) Faster Page Speed. More code means slower page speed. ...
+2) Better User Experience. CSS not only makes web pages easy on the eye, it also allows for user-friendly formatting. ...
+3) Quicker Development Time. 
+4) Easy Formatting Changes.
+5) Compatibility Across Devices.
+
+Q-2: What are the disadvantages of CSS?
+Ans: 1) Browser Compatibility. CSS may render differently in various web browsers, leading to inconsistencies in the visual presentation. ...
+2) Learning Curve. 
+3) Lack of Security. 
+4) Limited Layout Control. 
+5) Performance Impact. 
+6) verriding Styles. 
+7) Maintenance Challenges.
+
+
+Q-3: What is the difference between CSS2 and CSS3? 
+Ans: The biggest difference between CSS2 and CSS3 is that CSS3 is now split into different modules.
+ Since each module makes its way through the W3C individually, there's a wider range of browser support.
+ Make sure you test your CSS3 pages in as many browsers and operating systems as possible to ensure compatibility.
+
+Q-4: Name a few CSS style components ?
+Ans:
+1) Selector: This is the HTML element or elements that the style will be applied to. Examples include h1, p, .class-name, or #id-name.
+2) Property: The specific aspect of the element that you want to style, such as color, font-size, background-color, etc.
+3) Value: The value assigned to the property, such as red, 16px, or #ffffff.
+
+Q-5:What do you understand by CSS opacity?
+Ans:CSS opacity is a property that controls the transparency of an element. It takes a value between 0 and 1:   
+0: The element is completely transparent (invisible).   
+1: The element is completely opaque (visible).   
+Values between 0 and 1: The element is partially transparent, allowing the background to show through.   
+
+Q-6:How can the background color of an element be changed? 
+Ans:Use the CSS background-color property to add a background colour to HTML. Put it
+ into a style attribute and change the value to the desired colour name or code. Then
+ include this style attribute in an HTML element, such as a heading, span tag, table, or div.
+ Now, let’s say you want to modify the background colour of a certain element while keeping 
+ the background colour of your entire website the same. The good news is that the steps for
+ adding and changing an element’s background colour are remarkably similar.
+
+ There are three ways to change the HTML background colour:
+
+1)  Using the bgcolor attribute
+2)  Inline CSS 
+3)  Internal Stylesheet 
+
+Q-7:How can image repetition of the backup be controlled?  
+Ans:This task can be achieved by using the background-repeat property that will help us to control
+ the repetition of the image. The background-repeat property in CSS is used to repeat the background 
+image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+Q-8:What is the use of the background-position property?
+Ans:he background-position property in CSS is used to specify the position of a background image within
+ an element. It allows you to control where the image starts relative to the element's top-left corner. 
+ The property takes two values, separated by a space:
+First value: Specifies the horizontal position (e.g., left, center, right, or a pixel value).
+Second value: Specifies the vertical position (e.g., top, center, bottom, or a pixel value).
+
+Q-9:Which property controls the image scroll in the background? 
+Ans:The background-attachment property in CSS controls whether a background image scrolls with the page content or remains fixed in place.
+Here are the possible values for background-attachment:
+1.scroll: The image scrolls with the page content (default).   
+2.fixed: The image remains fixed in place, even as the page content scrolls.
+3.local: The image scrolls with the element itself, rather than the entire page.
+
+Q-10:Why should background and color be used as separate properties?
+Ans:Separating background and color properties in CSS is essential for flexibility, maintainability, and reusability.
+Here's a breakdown of the reasons:
+Flexibility:
+Independent Control: By using separate properties, you can modify the background color and image independently
+ without affecting the other. This provides more granular control over your design.
+Multiple Backgrounds: CSS allows you to layer multiple background images with different properties, such as opacity,
+ position, and repetition. Separating background and color properties makes this easier to manage.
+Maintainability:
+Easier Updates: When you need to change the background color or image, you can do so directly without affecting the
+ other properties. This reduces the risk of introducing unintended side effects.
+Modular Design: Separating these properties promotes a modular approach to styling, making your CSS code more organized and easier to understand.
+Reusability:
+Shared Styles: You can create reusable style classes that define the background color and image separately. This
+ allows you to apply the same styles to multiple elements on your page, saving time and effort.
+Customization: By separating these properties, you can easily customize the appearance of elements without having to rewrite the entire style definition.
+
+Q-11:How to center block elements using CSS1?  
+Ans:1. Center block elements using margin property: We need to specify the margin from left and right such that it looks centered. We do not need 
+to do this manually, we have one property value “auto” which will automatically set the margin such that our block element is placed in the center.
+
+Q-12:How to maintain the CSS specifications? 
+Ans:Maintaining CSS specifications involves ensuring that your styles are consistent, up-to-date, and compatible across
+ different browsers and devices. Here are some key strategies:
+1. Use a CSS Preprocessor
+2. Follow CSS Best Practices
+3. Leverage CSS Frameworks
+4. Test Across Browsers and Devices
+5. Stay Updated with CSS Standards
+6. Use Version Control
+7. Consider CSS Modules
+8. Optimize for Performance
+9. Regular Code Reviews
+
+Q-13:What are the ways to integrate CSS as a web page?  
+Ans:CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline
+ CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an internal 
+stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML
+
+Q-14:What is embedded style sheets?
+Ans:Embedded style sheets are CSS rules that are directly embedded within the <head> section of an HTML document. This method 
+allows you to define styles for specific elements within the same file as your HTML content.
+Advantages:
+Simple and straightforward: Easy to implement for small-scale styling.
+No external files: No need for separate CSS files.
+Disadvantages:
+Limited reusability: Styles defined within an embedded style sheet are specific to that particular HTML document.
+Poor organization: Can make your HTML code less readable and maintainable, especially for larger projects.
+
+Q-15:What are the external style sheets?
+Ans:External style sheets are CSS rules that are defined in a separate .css file and linked to your HTML document using the 
+<link> element. This method provides several benefits, including better organization, maintainability, and reusability.
+Benefits:
+Improved organization: Separates your HTML and CSS code, making your project easier to manage and understand.
+Reusability: Styles defined in external style sheets can be reused across multiple HTML pages, saving time and effort.
+Maintainability: Changes to your styles can be made in a single place without affecting your HTML code.
+Caching: Browsers can cache external style sheets, improving page load times.
+
+Q-16:What are the advantages and disadvantages of using external style sheets?  
+Ans:Advantages of Using External Style Sheets
+1.Improved Organization: Separates HTML and CSS, making the code easier to manage and understand.
+2.Reusability: Styles can be reused across multiple HTML pages, saving time and effort.
+3.Maintainability: Changes to styles can be made in a single place without affecting your HTML code.
+4.Caching: Browsers can cache external style sheets, improving page load times.
+5.Separation of Concerns: Enforces the principle of separation of concerns, making your code more modular and maintainable.
+
+Disadvantages of Using External Style Sheets
+1.Additional HTTP Request: Requires an extra HTTP request to load the CSS file, which can slightly increase page load time.
+2.Potential for Blocking Render: If the CSS file is large or the network connection is slow, it can block rendering of the page content until it's loaded.
+3.Dependency: Your HTML pages become dependent on the external CSS file, which can introduce potential issues if the file is missing or inaccessible.
+
+Q-17: What is the meaning of the CSS selector?
+Ans:A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other
+terms that tell the browser which HTML elements should be selected to have the CSS property 
+values inside the rule applied to them.
+
+Q-18:What are the media types allowed by CSS?  
+Ans:CSS media types are used to specify different styles for different output devices or conditions. They allow you to create
+ responsive designs that adapt to various screen sizes, orientations, and print media.   
+Here are the commonly used CSS media types:
+screen: Targets computer screens and devices with a screen.
+print: Targets printers and print media.   
+speech: Targets speech synthesis devices.
+projection: Targets projectors and other presentation devices.
+tty: Targets teletype devices (e.g., terminals).   
+all: Targets all media types.
+
+Q-19:What is the rule set? 
+Ans:A collection of rules or signatures that network traffic or system activity is compared against to 
+determine an action to take—such as forwarding or rejecting a packet, creating an alert, or allowing a system event.
+
